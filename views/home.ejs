@@ -1,0 +1,48 @@
+<%-include("header")-%>
+<div class="container">
+  <div class="row">
+      <div class="state">
+        <label for="cars">State:</label>
+      <select>
+        <option>Delhi</option>
+        <option>Uttarakhand</option>
+        <option>Uttar Pradesh</option>
+      </select>
+
+      </div>
+
+<div class="date">
+  <label>Check Availabilty:</label>
+<input type="date">
+</div>
+
+<div class="search">
+  <input type="text" placeholder="Search Hotel...">
+</div>
+  </div>
+
+
+
+  <div class="row">
+    <% item.forEach(function(hotel){%>
+      <div class="card carding col-md-3">
+      <img class="img" src=<%=hotel.img%> class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text"><h4><%=hotel.name%></h4></p>
+        <p class="card-text"><%=hotel.city%></p>
+        <a href="#" class="btn btn-primary">Book</a>
+      </div>
+    </div>
+    <%})%>
+  </div>
+
+</div>
+
+<div>
+  <p class="copyright">
+    copyright &copy; HOTEL
+  </p>
+</div>
+
+</body>
+</html>

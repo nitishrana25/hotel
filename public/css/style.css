@@ -1,0 +1,57 @@
+.carding{
+  margin-top: 60px;
+}
+
+.copyright{
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.state{
+  margin-top: 20px;
+}
+.date{
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.search{
+  margin-top: 20px;
+  margin-left: 440px;
+}
+.hotellogin{
+  color:black;
+  text-decoration: none;
+  margin-left: 15px;
+}
+.login{
+  color: black;
+  margin-left: 13px;
+}
+.vl {
+  border-left: 6px solid black;
+  height: 50px;
+  margin-left: 15px;
+}
+
+.register{
+  color: black;
+  margin-left: 13px;
+}
+
+.hotelregister{
+  color:black;
+  text-decoration: none;
+  margin-left: 15px;
+}
+.img{
+  width: 250px;
+  height: 200px;
+}
